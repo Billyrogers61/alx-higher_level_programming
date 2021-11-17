@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 '''
    fizbuzz - Function to check for multiples of 3 and 5.
    Return: mulitples 3 - 'Fizz'
