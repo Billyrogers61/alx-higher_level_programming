@@ -1,8 +1,4 @@
-'''
-   print_last_digit - Function to print the last digit of a number.
-   @number: variable containing the number.
-   Return: value of the last digit.
-'''
+#!/usr/bin/python3
 def print_last_digit(number):
     if (number > 0):
         last_num = number % 10
