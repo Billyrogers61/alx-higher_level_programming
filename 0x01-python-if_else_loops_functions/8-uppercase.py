@@ -1,7 +1,4 @@
-'''
-    uppercase - Function to prints string in uppercase.
-    @str: variable with the string.
-'''
+#!/usr/bin/python3
 def uppercase(str):
     word = ''
     for i in range(len(str)):
