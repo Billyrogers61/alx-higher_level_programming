@@ -1,8 +1,3 @@
-'''
-   add - Function to add two intergers.
-   @a: variable with the first interger.
-   @b: variable containing the second interger.
-   Return: Sum of first and second interger.
-'''
+#!/usr/bin/python3
 def add(a, b):
-    print(a + b)
+    return(a + b)
