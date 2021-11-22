@@ -4,7 +4,7 @@ def multiple_returns(sentence):
     my_list = list()
     new_list = list()
     if length == 0:
-        first = None;
+        first = None
     else:
         for char in sentence:
             my_list.append(char)
