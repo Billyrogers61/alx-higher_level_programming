@@ -6,3 +6,5 @@ def best_score(a_dictionary):
     for word in dict_keys:
         if a_dictionary[word] == sorted_values[-1]:
             return a_dictionary[word]
+        else:
+            continue
