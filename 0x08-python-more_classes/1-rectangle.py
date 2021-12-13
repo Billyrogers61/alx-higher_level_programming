@@ -27,17 +27,17 @@ class Rectangle:
     @width.setter
     def width(self, value):
         if type(value) != int:
-            print("width must be an interger")
+            raise TypeError("width must be an interger")
         elif value < 0:
-            print("width must be >= 0")
+            raise ValueError("width must be >= 0")
         else:
             self.__width = value
 
     @height.setter
     def height(self, value):
         if type(value) != int:
-            print("width must be an interger")
+            raise TypeError("width must be an interger")
         elif value < 0:
-            print("height must be >= 0")
+            raise ValueError("height must be >= 0")
         else:
             self.__height = value
